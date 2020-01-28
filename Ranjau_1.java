@@ -17,7 +17,7 @@ public class Ranjau_1 extends Actor
     }
     public void act() 
     {
-        if(Greenfoot.isKeyDown("right")){
+        /*if(Greenfoot.isKeyDown("right")){
             move(-4);
         }
         if(Greenfoot.isKeyDown("left")){
@@ -26,6 +26,6 @@ public class Ranjau_1 extends Actor
          if(getX()==0)
         {
             setLocation(getWorld().getWidth()-1,Greenfoot.getRandomNumber(100)+630);
-        }
+        }*/
     }    
 }

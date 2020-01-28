@@ -16,7 +16,7 @@ public class Background_about extends World
     public Background_about()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(750, 600, 1); 
+        super(1000, 600, 1); 
         prepare();
     }
     
@@ -44,5 +44,6 @@ public class Background_about extends World
         Back back = new Back();
         addObject(back,831,563);
         back.setLocation(670,557);
+        back.setLocation(128,564);
     }
 }

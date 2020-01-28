@@ -16,7 +16,7 @@ public class Panduan extends World
     public Panduan()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(750, 600, 1); 
+        super(1000, 600, 1); 
         prepare();
     }
 
@@ -50,5 +50,6 @@ public class Panduan extends World
         removeObject(back);
         Back2 back2 = new Back2();
         addObject(back2,679,557);
+        back2.setLocation(897,556);
     }
 }
